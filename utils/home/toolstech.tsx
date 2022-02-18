@@ -39,7 +39,9 @@ import {
   windowsLogoHover,
   yarnLogo,
   yarnLogoHover,
-  nextLogo
+  nextLogo,
+  reactNativeLogo,
+  apiLogo
 } from '../../assets'
 import styles from './toolstech.module.scss'
 
@@ -142,6 +144,20 @@ export function VToolsTech() {
           width="50px"
           name="next js"
           tooltipID="nextjs-tooltip" />
+            <VIcon
+          defaulIcon={reactNativeLogo}
+          onHoverIcon={reactNativeLogo}
+          height="50px"
+          width="50px"
+          name="react native"
+          tooltipID="reactnative-tooltip" />
+           <VIcon
+          defaulIcon={apiLogo}
+          onHoverIcon={apiLogo}
+          height="50px"
+          width="50px"
+          name="rest api"
+          tooltipID="restapi-tooltip" />
       </div>
     </div>
   )
