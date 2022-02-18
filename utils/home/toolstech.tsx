@@ -75,13 +75,6 @@ export function VToolsTech() {
           name="React"
           tooltipID="react-tooltip" />
         <VIcon
-          defaulIcon={angularLogo}
-          onHoverIcon={angularLogoHover}
-          height="50px"
-          width="50px"
-          name="Angular"
-          tooltipID="angular-tooltip" />
-        <VIcon
           defaulIcon={tsLogo}
           onHoverIcon={tsLogoHover}
           height="65px"
@@ -125,27 +118,6 @@ export function VToolsTech() {
           width="65px"
           name="Git"
           tooltipID="git-tooltip" />
-        <VIcon
-          defaulIcon={jestLogo}
-          onHoverIcon={jestLogoHover}
-          height="50px"
-          width="50px"
-          name="Jest"
-          tooltipID="jest-tooltip" />
-        <VIcon
-          defaulIcon={mysqlLogo}
-          onHoverIcon={mysqlLogoHover}
-          height="70px"
-          width="70px"
-          name="MySQL"
-          tooltipID="mysql-tooltip" />
-        <VIcon
-          defaulIcon={pythonLogo}
-          onHoverIcon={pythonLogoHover}
-          height="55px"
-          width="55px"
-          name="Python"
-          tooltipID="python-tooltip" />
       </div>
       <div className={styles.technologiesIconsRow}>
         <VIcon
@@ -156,33 +128,12 @@ export function VToolsTech() {
           name="Visual Studio Code"
           tooltipID="vs-tooltip" />
         <VIcon
-          defaulIcon={affinityLogo}
-          onHoverIcon={affinityLogoHover}
-          height="50px"
-          width="50px"
-          name="Affinity"
-          tooltipID="affinity-tooltip" />
-        <VIcon
-          defaulIcon={davinciLogo}
-          onHoverIcon={davinciLogoHover}
-          height="50px"
-          width="50px"
-          name="DaVinci Resolve"
-          tooltipID="davinci-tooltip" />
-        <VIcon
           defaulIcon={windowsLogo}
           onHoverIcon={windowsLogoHover}
           height="50px"
           width="50px"
           name="Windows 10"
           tooltipID="windows-tooltip" />
-        <VIcon
-          defaulIcon={linuxLogo}
-          onHoverIcon={linuxLogoHover}
-          height="50px"
-          width="50px"
-          name="Ubuntu Linx"
-          tooltipID="linux-tooltip" />
       </div>
     </div>
   )

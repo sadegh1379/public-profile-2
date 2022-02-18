@@ -22,21 +22,21 @@ export function VFooter() {
         <VIcon
           defaulIcon={linkedInLogo}
           onHoverIcon={linkedInLogoHover}
-          href="https://www.linkedin.com/in/karolina-hudziec-0b2ba815a"
+          href="https://www.linkedin.com/in/sadegh-akbari-788207197/"
           height="30px"
           width="30px"
           name="LinkedIn"/>
         <VIcon
           defaulIcon={gmailLogo}
           onHoverIcon={gmailLogoHover}
-          href="mailto:khudziec@gmail.com"
+          href="mailto:akbarisadegh382@gmail.com"
           height="30px"
           width="30px"
           name="Gmail"/>
         <VIcon
           defaulIcon={gitHubLogo}
           onHoverIcon={gitHubLogoHover}
-          href="https://github.com/FutureInventor"
+          href="https://github.com/sadegh1379"
           height="30px"
           width="30px"
           name="GitHub"/>
