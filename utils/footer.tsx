@@ -14,7 +14,7 @@ export function VFooter() {
     <footer className={styles.footer}>
       <div className={styles.goUpSquare}/>
       <h4 className={styles.copyrights}>
-        ©2021
+        ©2022
         <br/>
         Build with <span>Next.js/TypeSript</span>
       </h4>

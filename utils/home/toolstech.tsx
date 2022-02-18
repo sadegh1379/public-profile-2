@@ -38,7 +38,8 @@ import {
   windowsLogo,
   windowsLogoHover,
   yarnLogo,
-  yarnLogoHover
+  yarnLogoHover,
+  nextLogo
 } from '../../assets'
 import styles from './toolstech.module.scss'
 
@@ -134,6 +135,13 @@ export function VToolsTech() {
           width="50px"
           name="Windows 10"
           tooltipID="windows-tooltip" />
+           <VIcon
+          defaulIcon={nextLogo}
+          onHoverIcon={nextLogo}
+          height="50px"
+          width="50px"
+          name="next js"
+          tooltipID="nextjs-tooltip" />
       </div>
     </div>
   )

@@ -11,8 +11,6 @@ import {
 } from '../../utils'
 import {
   chevronDown,
-  profilePicture,
-  sadeghLogo,
   sadeghLogo_2
 } from '../../assets'
 import styles from './home.module.scss'
