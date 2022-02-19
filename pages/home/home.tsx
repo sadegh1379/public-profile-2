@@ -50,11 +50,11 @@ export default function VHome() {
             <Fade>
               <h1 className={styles.linkBoxTitle}>Work<br/>History</h1>
               <h2 className={styles.linkBoxTextContent}>Here you can find out more about the companies I've collaborated with, projects I've been part of and the technologies I use every day.</h2>
-              {/* <Link href={`/work/work`}> */}
+              <Link href={`/work/work`}>
                 <a className={styles.linkBoxButton}>
                   Check out my work history
                 </a>
-              {/* </Link> */}
+              </Link>
             </Fade>
           </div>
           <div className={styles.workHistoryBackground}/>

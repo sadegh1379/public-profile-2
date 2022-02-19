@@ -25,13 +25,13 @@ export function VMenuBar(props: MenuBarProps) {
           </h3>
         </a>
       </Link>
-      {/* <Link href={`/work`}> */}
+      <Link href={`/work`}>
         <a className={styles.tab}>
           <h3 style={props.activeTab === "Work" ? {color: "#E76161"} : {color: "#D5D5D5"}}>
             Work
           </h3>
         </a>
-      {/* </Link> */}
+      </Link>
       {/* <Link href={`/about`}> */}
         <a className={styles.tab}>
           <h3 style={props.activeTab === "About" ? {color: "#E76161"} : {color: "#D5D5D5"}}>
