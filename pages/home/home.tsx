@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Fade } from "react-awesome-reveal"
 import {
   VFooter,
@@ -16,6 +16,18 @@ import {
 import styles from './home.module.scss'
 
 export default function VHome() {
+
+  useEffect( () => {
+    window.$crisp = [];
+    window.CRISP_WEBSITE_ID = '3983abc1-02e8-4693-88a2-56310ea775a0';
+    (function () {
+      const d = document;
+      const s = d.createElement('script');
+      s.src = 'https://client.crisp.chat/l.js';
+      s.async = true;
+      d.getElementsByTagName('head')[0].appendChild(s);
+    })();
+  },[])
   return (
     <div className={styles.homeContainer}>
       <Head>
