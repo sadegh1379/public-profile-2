@@ -14,22 +14,29 @@ import {
   sadeghLogo_2
 } from '../../assets'
 import styles from './home.module.scss'
+import dynamic from 'next/dynamic'
+
+const CrispWithNoSSR = dynamic(
+  () => import('../../utils/crisp'),
+  { ssr: false }
+)
 
 export default function VHome() {
 
-  useEffect( () => {
-    window.$crisp = [];
-    window.CRISP_WEBSITE_ID = '3983abc1-02e8-4693-88a2-56310ea775a0';
-    (function () {
-      const d = document;
-      const s = d.createElement('script');
-      s.src = 'https://client.crisp.chat/l.js';
-      s.async = true;
-      d.getElementsByTagName('head')[0].appendChild(s);
-    })();
-  },[])
+  // useEffect( () => {
+  //   window.$crisp = [];
+  //   window.CRISP_WEBSITE_ID = '3983abc1-02e8-4693-88a2-56310ea775a0';
+  //   (function () {
+  //     const d = document;
+  //     const s = d.createElement('script');
+  //     s.src = 'https://client.crisp.chat/l.js';
+  //     s.async = true;
+  //     d.getElementsByTagName('head')[0].appendChild(s);
+  //   })();
+  // },[])
   return (
     <div className={styles.homeContainer}>
+      <CrispWithNoSSR />
       <Head>
         <title>Sadegh Akbari</title>
         <meta name="description" content="This is my portfolio page. The purpose of this page is to introduce my person, my coding style, and show off a little bit of my web development skills." />

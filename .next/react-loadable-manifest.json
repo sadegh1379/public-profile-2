@@ -4,5 +4,11 @@
     "files": [
       "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
     ]
+  },
+  "home\\home.tsx -> ../../utils/crisp": {
+    "id": "./utils/crisp/index.js",
+    "files": [
+      "static/chunks/utils_crisp_index_js.js"
+    ]
   }
 }
