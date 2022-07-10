@@ -84,7 +84,7 @@ export { default as swissPizGloriaPhoto } from './photos/swissPizGloriaPhoto.png
 export { default as walesPhoto } from './photos/walesPhoto.png'
 export { default as londonCanaryPhoto } from './photos/londonCanaryPhoto.png'
 export { default as sadeghLogo } from './new-photo/sadegh.jpg';
-export { default as sadeghLogo_2 } from './new-photo/sadegh-1.jpg';
+export { default as sadeghLogo_2 } from './new-photo/sadegh.jpg';
 export { default as nextLogo } from './new-photo/next-js.png';
 export { default as reactNativeLogo } from './new-photo/react-native.png';
 export { default as apiLogo } from './new-photo/api.png';
